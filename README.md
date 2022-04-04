@@ -5,15 +5,15 @@ This repository makes use of **Salaries.csv** file which contains information ab
 The objective of the python file included in this repository is to use some basic functions of python and eventually plotting graphs of the salaries of the professors.
 
 # Table of Contents
--[Load Libraries](#import-the-important-libraries)
--[Read File](#read-the-file)
--[Loading Data](#load-data)
--[Information of Data](#data-type)
--[Key Statistics](#funndamental-statistics)
--[Female Professors Data](#select-data-for-female-professors)
--[Mean of Discipline A](#mean-salary-of-discipline-a)
--[Histogram](#histogram-of-salary-data)
--[Barchart](#barplot-of-rank-vs-salary)
+- [Load Libraries](#import-the-important-libraries)
+- [Read File](#read-the-file)
+- [Loading Data](#load-data)
+- [Information of Data](#data-type)
+- [Key Statistics](#funndamental-statistics)
+- [Female Professors Data](#select-data-for-female-professors)
+- [Mean of Discipline A](#mean-salary-of-discipline-a)
+- [Histogram](#histogram-of-salary-data)
+- [Barchart](#barplot-of-rank-vs-salary)
 
 # Plot Graphs of Salary
 
