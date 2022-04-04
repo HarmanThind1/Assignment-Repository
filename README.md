@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://en.wikipedia.org/wiki/Python_(programming_language)#/media/File:Python-logo-notext.svg" alt="Python logo" width="200" height="165">
+</p>
+
 # Introduction
 
 This repository makes use of **Salaries.csv** file which contains information about various professors, their ranks, salaries, discipline, sex and years of service.
@@ -5,11 +9,11 @@ This repository makes use of **Salaries.csv** file which contains information ab
 The objective of the python file included in this repository is to use some basic functions of python and eventually plotting graphs of the salaries of the professors.
 
 # Table of Contents
-- [Load Libraries](#import-the-important-libraries)
+- [Import Libraries](#import-the-important-libraries)
 - [Read File](#read-the-file)
 - [Loading Data](#load-data)
-- [Information of Data](#data-type)
-- [Key Statistics](#funndamental-statistics)
+- [Data Type](#data-type)
+- [Fundamental Statistics](#funndamental-statistics)
 - [Female Professors Data](#select-data-for-female-professors)
 - [Mean of Discipline A](#mean-salary-of-discipline-a)
 - [Histogram](#histogram-of-salary-data)
@@ -26,7 +30,7 @@ Firstly we use `pd.read()` function to read the csv file **Salaries.csv**
 ## Load Data
 Next we use `.head()` function to display the data of first 20 rows for better understanding of the data.
 
-## Data type
+## Data Type
 Then `.info()` function is used to print information about dataset. The information contains the number of column, column data types, column  labels, non-null count.
 
 ## Funndamental Statistics
