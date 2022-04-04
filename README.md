@@ -2,12 +2,23 @@
 
 This repository makes use of **Salaries.csv** file which contains information about various professors, their ranks, salaries, discipline, sex and years of service.
 
-The objective of the python file is to explain some simple codes of python and eventually plot graph of the salaries of the professors.
+The objective of the python file included in this repository is to use some basic functions of python and eventually plotting graphs of the salaries of the professors.
+
+# Table of Contents
+-[Load Libraries](#import-the-important-libraries)
+-[Read File](#read-the-file)
+-[Loading Data](#load-data)
+-[Information of Data](#data-type)
+-[Key Statistics](#funndamental-statistics)
+-[Female Professors Data](#select-data-for-female-professors)
+-[Mean of Discipline A](#mean-salary-of-discipline-a)
+-[Histogram](#histogram-of-salary-data)
+-[Barchart](#barplot-of-rank-vs-salary)
 
 # Plot Graphs of Salary
 
 ## Import the important libraries
-Some importatnt libraries like pandas, numpy and seaborn have been included to execute inbuilt python functions.
+Some important libraries like pandas, numpy and seaborn have been included to execute inbuilt python functions.
 
 ## Read the file
 Firstly we use `pd.read()` function to read the csv file **Salaries.csv**
@@ -16,10 +27,10 @@ Firstly we use `pd.read()` function to read the csv file **Salaries.csv**
 Next we use `.head()` function to display the data of first 20 rows for better understanding of the data.
 
 ## Data type
-Then `.info()` function is used to print information about dataframe.
+Then `.info()` function is used to print information about dataset. The information contains the number of column, column data types, column  labels, non-null count.
 
 ## Funndamental Statistics
-Here we also used `.describe()` function for calculating statistical data like mean, percentile, standard deviation 
+Here we also used `.describe()` function for calculating statistical data like mean, percentile, standard deviation.
 
 ## Select Data for female professors
 For displaying data just for female professors we used following code `df[ df['sex'] == 'Female']` and renamed it as df_female and then used `.head()` function to display information about first five female professors.
